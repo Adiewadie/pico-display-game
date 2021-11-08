@@ -16,7 +16,7 @@ while True:
     display.set_pen(224,255,255)     
     display.text("Press A to start"10,10,240,4)
     display.update()
-    if display.is_pressed(display.BUTTON_A):
+    if display.is_pressed(display.BUTTON_A): # just chango the button a part to b x or y to change the button
         clear()
         display.set_pen(238,44,44) # changing the pen color
         display.text("Welcome to your DOOM!"10, 10, 240, 4)
@@ -168,6 +168,7 @@ while True:
         display.update()
         utime.sleep(2)
         clear()
+        display.text("Well, anyway let's get movin!"10,10,240,4)
         
         
         
