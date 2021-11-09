@@ -108,7 +108,7 @@ while True:
                 heavy = 60
                 magika = 75
                 dist = 50
-                title = Wizard
+                title = wizard
                 clear()
             display.text("I would have never guessed you were a", title,10,10,240,4)
             display.update()
