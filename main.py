@@ -169,6 +169,9 @@ while True:
         utime.sleep(2)
         clear()
         display.text("Well, anyway let's get movin!"10,10,240,4)
+        display.update()
+        utime.sleep(2)
+        clear()
         
         
         
