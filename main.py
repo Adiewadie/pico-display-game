@@ -172,6 +172,7 @@ while True:
         display.update()
         utime.sleep(2)
         clear()
+        display.text
         
         
         
