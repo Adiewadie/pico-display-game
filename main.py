@@ -73,7 +73,7 @@ while True:
             display.update()
             utime.sleep(2)
             clear()
-            display.text("A=Knight B=Archer X=tank Y=Wizard"10,10,240,4)
+            display.text("A=Knight B=Archer X=Tank Y=Wizard"10,10,240,4)
             display.update()
             if display.is_pressed(display.BUTTON_A):
                 health = 150
@@ -172,7 +172,13 @@ while True:
         display.update()
         utime.sleep(2)
         clear()
-        display.text
+        display.text("As you ride through the forest"10,10,240,4)
+        display.update()
+        display.clear
+        utime.sleep(1)
+        display.text("You hear a scream coming from the east"10,10,240,4)
+        display.update()
+        utime.sleep(1)
         
         
         
