@@ -1,8 +1,8 @@
-import picodisplay as display # comment this line out if you want to use the display2                                                  
+import picodisplay as display                                                  
 import utime
 import time
 import machine  # all the libs we need for this (machine is optional)
-#import picodisplay2 as display   uncomment this line if you want to use the display2
+#import picodisplay2 as display   
 buf = bytearray(display.get_width() * display.get_height() * 2) #sets boundaries for the text
 display.init(buf)
 display.set_backlight(0.5)
@@ -110,7 +110,7 @@ while True:
                 dist = 50
                 title = wizard
                 clear()
-            display.text("I would have never guessed you were a", title,10,10,240,4)
+            display.text("I would have never guessed you were a", title",10,10,240,4)
             display.update()
             utime.sleep(2)
             clear()
@@ -174,11 +174,22 @@ while True:
         clear()
         display.text("As you ride through the forest"10,10,240,4)
         display.update()
-        display.clear
+        clear()
         utime.sleep(1)
         display.text("You hear a scream coming from the east"10,10,240,4)
         display.update()
         utime.sleep(1)
+        clear()
+        display.text("Do you wish to investigate?"10,10,240,4)
+        display.update()
+        utime.sleep(3)
+        clear()
+        display.text("Press A for yes  Press Y for no"10,10,240,4)
+                         
+                       
+                         
+                   
+                        
         
         
         
